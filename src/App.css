@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  min-height: 100vh;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: #fff;
+  text-shadow: 3px 2px rgba(50, 50, 70, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 32px;
+  padding: 20px;
+}
+
+.container {
+  width: 340px;
+  height: 580px;
+  border-radius: 10px;
+  overflow: hidden;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.search-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  max-height: 50px;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+
+.search-box input {
+  padding: 12px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 18px;
+  color: #313131;
+  outline: none;
+}
+
+.search-box input:focus {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.location-box {
+  padding-top: 20px;
+}
+
+.location {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.date {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  text-shadow: 2px 1.5px rgba(50, 50, 70, 0.5);
+  text-align: center;
+  padding: 20px;
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  color: #fff;
+  text-shadow: 2px 1.5px rgba(50, 50, 70, 0.5);
+  padding: 0 15px 10px 15px;
+}
+
+.extra {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-temp {
+  font-weight: 900;
+  font-size: 100px;
+}
+
+.weather {
+  color: #fff;
+  font-size: 40px;
+  text-shadow: 2px 1.5px rgba(50, 50, 70, 0.5);
+  font-weight: 700;
+}
